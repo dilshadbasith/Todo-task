@@ -27,7 +27,7 @@ const TodoWrapper = () => {
   }  
   return (
     <div className="TodoWrapper">
-      <h1>What to do next?</h1>
+      <h1>What TO DO next?</h1>
       <TodoForm addTodo={addTodo} />
       {todos.map((todo, index) => (
         <Todo
